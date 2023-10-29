@@ -8,6 +8,6 @@ go_binary(
 
 go_library(
     name = "message",
-    importpath = "//message",
+    importpath = "github.com/GrayBuckley/ECSShell/message",
     srcs = ["message.go"],
 )

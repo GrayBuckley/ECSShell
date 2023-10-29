@@ -2,10 +2,9 @@ package main
 
 import (
     "fmt"
-
-    "//message"
+    "github.com/GrayBuckley/ECSShell/message"
 )
 
 func main() {
-    fmt.Println("Hello, World?")
+    fmt.Println(message.Msg)
 }
